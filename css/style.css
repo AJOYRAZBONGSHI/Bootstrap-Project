@@ -13,7 +13,15 @@
 }
 .about-img{
 width: 100%;
-max-height: 300px;
+height: 400px;
+}
+.gallery img{
+    width: 100%;
+    height: 280px;
+}
+.gallery img:hover{
+    transform: skew(5deg) scale(0.95);
+    transition: all 0.5s ease;
 }
 .services img{
     width: 100%;
